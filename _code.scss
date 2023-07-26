@@ -1,0 +1,82 @@
+body{
+    background-color: $firstcolor;
+    @include reset-list;
+    @include flexmid;
+    font-family: $fontfamily1;
+    height: 85vh;
+}
+
+.blocp{
+    background: $secondcolor;
+    width: add(300px,400px);
+    height: 470px;
+    border-radius: 20px;
+    display: flex;
+    h2{
+        @include flexmid;
+        margin-top: 15px;
+        margin-left: -60px;
+        font-size: 50px;
+        margin-bottom: 0;
+    }    
+    p{
+        font-size: 13px;
+        color: $fourtcolor;
+        margin-bottom: 30px;
+    }
+    .blocg{
+        padding-top: 10px;
+        margin-right: -10px;
+    }
+    
+    .image1{
+        height: 450px;
+        width: 350px;
+    }
+    .blocd{
+        width: 600px;
+        border-radius: 20px;
+        margin-left: 40px;
+        font-weight: 560;
+        
+        .list{
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 10px;
+            p{
+            @include reset-list;
+            font-size: 13px;
+            color: $fourtcolor;
+            }
+        }
+    } 
+}
+
+.email-bloc{
+    display: grid;
+    width: 300px;
+    .em1{
+        margin-bottom: 5px;
+        font-size: 13 px;
+        font-weight: 600;
+    }
+    .form{
+        @include flexmid;
+        font-weight: 600;        
+        padding: 10px;
+        border-radius: 7px;
+       
+    }
+}
+
+.button-bloc{
+    @extend .form;
+    margin-top: 25px;
+    @include font(background, $thirdcolor);
+    color: $secondcolor;
+    font-size: 12px;
+}
+
+
+
+

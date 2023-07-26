@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Roboto:wght@400;700&display=swap");
+body {
+  background-color: rgb(57, 54, 110);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  border-radius: 20px;
+  font-family: roboto;
+  height: 85vh;
+}
+
+.blocp {
+  background: white;
+  width: 700px;
+  height: 470px;
+  border-radius: 20px;
+  display: flex;
+}
+.blocp h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  border-radius: 20px;
+  margin-top: 15px;
+  margin-left: -60px;
+  font-size: 50px;
+  margin-bottom: 0;
+}
+.blocp p {
+  font-size: 13px;
+  color: rgb(100, 100, 100);
+  margin-bottom: 30px;
+}
+.blocp .blocg {
+  padding-top: 10px;
+  margin-right: -10px;
+}
+.blocp .image1 {
+  height: 450px;
+  width: 350px;
+}
+.blocp .blocd {
+  width: 600px;
+  border-radius: 20px;
+  margin-left: 40px;
+  font-weight: 560;
+}
+.blocp .blocd .list {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 10px;
+}
+.blocp .blocd .list p {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  color: rgb(100, 100, 100);
+}
+
+.email-bloc {
+  display: grid;
+  width: 300px;
+}
+.email-bloc .em1 {
+  margin-bottom: 5px;
+  font-size: 13 px;
+  font-weight: 600;
+}
+.email-bloc .form, .email-bloc .button-bloc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  border-radius: 20px;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.button-bloc {
+  margin-top: 25px;
+  background: #343148;
+  color: white;
+  font-size: 12px;
+}/*# sourceMappingURL=styles.css.map */
